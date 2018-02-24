@@ -9,7 +9,7 @@
 </head>
 <body>
 <!-- Header -->
-require_once 'header.php';
+<?php require_once('header.php');?>
 <!-- End Header --> 
 <!-- Navigation -->
 <div id="navigation">
