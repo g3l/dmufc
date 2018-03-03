@@ -1,0 +1,72 @@
+/*home page styles*/
+
+/*make nav bar fixed*/
+  .affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+  .affix + #container-fluid {
+      padding-top: 70px;
+  }
+
+/* box around last row which has map address and training times on*/
+#lastimage{
+    width:100%;
+    border:1px solid gray;
+}
+.navbar{
+background-color: white;
+padding: 10px;
+}
+#footerleft{
+    float: right;
+}
+#footerright{
+    float: right;
+}
+
+/*home page styles end*/
+
+/*committee page styles*/
+
+/*committee page styles end*/
+
+/*Socials page styles*/
+
+/*Socials page styles end*/
+
+/*join page styles*/
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.contactform {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+/*join page styles end*/
+
