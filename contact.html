@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/png" href="css/images/logo.png" />
+    <title>DMUFC</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css" type="text/css" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center" id="container-fluid">
+    <h1>De Montfort University Mens Football Club</h1>
+    <p>Welcome to DMUFC's official Website</p>
+</div>
+
+<div class="navbar" data-spy="affix" data-offset-top="270">
+<ul class="nav nav-pills nav-justified" role="tablist">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="committee.html">Committee</a></li>
+    <li><a href="teams.html">Teams</a></li>
+    <li><a href="socials.html">Socials</a></li>
+    <li class="active"><a href="#">Contact Us</a></li>
+</ul>
+</div>
+
+<div class="container" id="container-fluid">
+
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>Join us</h3>
+            <img src="css/images/flogo.png"alt="dmufc logo" width="87%">           
+
+        </div>
+        <div class="col-sm-8">
+            <h3>Fill in the form below</h3>
+
+            <div class="contactform">
+   <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+    
+    <label for="emailaddress">Email Address</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your email address..">
+    
+    
+    <label for="pnumber">Phone Number</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your phone number..">
+
+    <label for="Position">Position you play</label>
+    <select id="Position" name="position">
+      <option value="GoalKeeper">GoalKeeper</option>
+      <option value="Defence">Defence</option>
+      <option value="Midfield">Midfield</option>
+      <option value="Attack">Attack</option>
+      <option value="dontplay">I Don't play</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+        </div>
+    </div>
+    <p></p>
+    <!--table2-->
+    <div class="row"" id="lastimage" style="background-color: rgb(234, 237, 242)">
+        <div class="col-sm-4">
+            <h3>Training Times</h3>
+            <p>
+               1st & 2nd Team Monday & Thursday 8.30-10pm
+            </p>
+            <p>
+                3rd & 4th Team Monday 5.30-7pm
+            </p>
+            <p>
+                5th & 6th Team Thursday 7-8.30pm
+            </p>
+            <p>
+                S&C - Monday 10-11am & Friday 10-11am
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <h3>Where</h3>
+            <p>
+                Training and Home Matches for all teams take place at Beaumont Park
+            </p>
+            <p>
+                Strength and Conditioning takes place at the QEII
+            </p>
+
+            <p>Email:</p>
+            <a class="dmuemail" href="mailto:dmu.mensfootballclub@hotmail.com" data-type="mail">dmu.mensfootballclub@hotmail.com</a>
+        </div>
+        <div class="col-sm-4">
+            <a href="https://www.google.co.uk/maps/place/Dmu%2F+Beaumont+park+Football+club/@52.6701461,-1.1703831,16.4z/data=!4m8!1m2!2m1!1sbeaumont+town+fc!3m4!1s0x4877606958d70b93:0x9efeed8056a05816!8m2!3d52.6701953!4d-1.1678565">
+                <img src="css/images/map.JPG" class="img-thumbnail" alt="map link" style="width: 75%" ></a>
+        </div>
+    </div>
+    <!--end table2-->
+    <!--footer-->
+    <div class="row">
+        <div class="col-sm-4">
+            <a href="#" id="footerleft" ">TERMS OF USE</a> <a href="#" id="footerleft">PRIVACY POLICY</a>
+        </div>
+        <div class="col-sm-4" id="footerright">
+            <p>&copy; Created by Godfrey Lemi</p>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
+<!--script for twitter feed-->
+<script type="text/javascript">
+    (function() {
+        var fn = document.createElement('script'); fn.type = 'text/javascript';
+        fn.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.feederninja.com/api/feed/0ffe6fdec6ef86f6b933519bab6792b9?fnurl=' + window.location.href;
+        var s = document.getElementsByTagName('head')[0].appendChild(fn);
+    })();
+</script>
