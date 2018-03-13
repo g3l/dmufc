@@ -32,14 +32,16 @@
     <div class="row">
         <div class="col-sm-4">
             <h3>Join us</h3>
+            <a href="index.html">
             <img src="css/images/flogo.png"alt="dmufc logo" width="87%">           
+            </a>
 
         </div>
         <div class="col-sm-8">
             <h3>Fill in the form below</h3>
 
-            <div class="contactform">
-   <form action="/action_page.php">
+            <div >
+   <form action="/action_page.php" id="contactform">
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
@@ -64,6 +66,8 @@
     </select>
   
     <input type="submit" value="Submit">
+    <input class="submit" onclick="myFunction()" value="Clear Form">
+
   </form>
 </div>
 
@@ -119,11 +123,9 @@
 
 </body>
 </html>
-<!--script for twitter feed-->
-<script type="text/javascript">
-    (function() {
-        var fn = document.createElement('script'); fn.type = 'text/javascript';
-        fn.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.feederninja.com/api/feed/0ffe6fdec6ef86f6b933519bab6792b9?fnurl=' + window.location.href;
-        var s = document.getElementsByTagName('head')[0].appendChild(fn);
-    })();
+<!--reset form-->
+<script>
+function myFunction() {
+    document.getElementById("contactform").reset();
+}
 </script>
