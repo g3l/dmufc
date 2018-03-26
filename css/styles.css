@@ -39,6 +39,12 @@ padding: 10px;
 /* Desktop*/
 @media screen and (max-width: 768px) {
   #showHide  { display: block; }
+/*header jumbotron*/
+#showHide2 { display:none; }
+
+/* Desktop*/
+@media screen and (min-width: 768px) {
+  #showHide2  { display: block; }
 
 /*Socials page styles end*/
 
