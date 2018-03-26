@@ -34,6 +34,11 @@ padding: 10px;
 /*committee page styles end*/
 
 /*Socials page styles*/
+#showHide { display:none; }
+
+/* Desktop*/
+@media screen and (max-width: 768px) {
+  #showHide  { display: block; }
 
 /*Socials page styles end*/
 
