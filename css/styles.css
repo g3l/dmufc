@@ -1,30 +1,30 @@
 /*home page styles*/
 
 /*make nav bar fixed*/
-  .affix {
-      top: 0;
-      width: 100%;
-      z-index: 9999 !important;
-  }
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
+}
 
-  .affix + #container-fluid {
-      padding-top: 70px;
-  }
+.affix + #container-fluid {
+  padding-top: 70px;
+}
 
 /* box around last row which has map address and training times on*/
 #lastimage{
-    width:100%;
-    border:1px solid gray;
+  width:100%;
+  border:1px solid gray;
 }
 .navbar{
-background-color: white;
-padding: 10px;
+  background-color: white;
+  padding: 10px;
 }
 #footerleft{
-    float: right;
+  float: right;
 }
 #footerright{
-    float: right;
+  float: right;
 }
 
 /*home page styles end*/
@@ -32,52 +32,51 @@ padding: 10px;
 /*committee page styles*/
 
 /*committee page styles end*/
-
+.navbar-nav>li+li{margin-left: 70px}
 /*Socials page styles*/
 #showHide { display:none; }
 
 /* Desktop*/
 @media screen and (max-width: 768px) {
   #showHide  { display: block; }
-/*header jumbotron*/
-#showHide2 { display:none; }
+  /*header jumbotron*/
+  #showHide2 { display:none; }
 
-/* Desktop*/
-@media screen and (min-width: 768px) {
-  #showHide2  { display: block; }
+  /* Desktop*/
+  @media screen and (min-width: 768px) {
+    #showHide2  { display: block; }
 
-/*Socials page styles end*/
+    /*Socials page styles end*/
 
-/*join page styles*/
-input[type=text], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
+    /*join page styles*/
+    input[type=text], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
 
-input[type=submit] {
-    width: 100%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
+    input[type=submit] {
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
 
-input[type=submit]:hover {
-    background-color: #45a049;
-}
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
 
-.contactform {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-/*join page styles end*/
-
+    .contactform {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    /*join page styles end*/
