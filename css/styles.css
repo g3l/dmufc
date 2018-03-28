@@ -11,6 +11,10 @@
   padding-top: 70px;
 }
 
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
 /* box around last row which has map address and training times on*/
 #lastimage{
   width:100%;
