@@ -1,43 +1,30 @@
-/*home page styles*/
-
-/*make nav bar fixed*/
+/*make nav bar fixed after scrolling*/
 .affix {
   top: 0;
   width: 100%;
   z-index: 9999 !important;
 }
-
+/*affects the navbar lag when scrolling*/
 .affix + #container-fluid {
-  padding-top: 70px;
+  padding-top: 75px;
 }
 
-
-/* box around last row which has map address and training times on*/
-#lastimage{
-  width:100%;
-  border:1px solid gray;
-}
-.navbar{
-  padding: 0px;
-}
-#footerleft{
-  float: right;
-}
-#footerright{
-  float: right;
-}
-
-/*home page styles end*/
-
+/*nav bar colour when hovering*/
 .navbar-nav li:hover{
   background-color: rgb(239, 62, 42);
 }
-/*committee page styles*/
 
-/*committee page styles end*/
-.activep{
+/* spread out nav bar links*/
+.navbar-nav>li+li{
+  margin-left: 40px
 }
-.navbar-nav>li+li{margin-left: 40px}
+#navlogo{
+  width: 20%;
+}
+.img-thumbnail{
+  /*kp stadium pic*/
+  width: 100%;
+}
 /*Socials page styles*/
 #showHide { display:none; }
 
@@ -50,7 +37,7 @@
 }
 }
 
-  /*header jumbotron hide for small screen*/
+  /*hide header jumbotron and logo on nav bar  for small screen*/
   #showHide2 { display:none; }
 
   /* Desktop*/
@@ -61,38 +48,89 @@
     text-align: center;
 }
 }
-    /*Socials page styles end*/
 
-    /*join page styles*/
-    input[type=text], select {
-      width: 100%;
-      padding: 12px 20px;
-      margin: 8px 0;
-      display: inline-block;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      box-sizing: border-box;
-    }
+/* box around last row which has map address and training times on*/
+#lastimage{
+  width:100%;
+  border:1px solid gray;
+}
 
-    input[type=submit] {
-      width: 100%;
-      background-color: #4CAF50;
-      color: white;
-      padding: 14px 20px;
-      margin: 8px 0;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
+/*position footer items*/
+#footeritems{
+  text-align: center;
+}
 
-    input[type=submit]:hover {
-      background-color: #45a049;
-    }
+/* social medai links*/
+#smlinks{
+  background-color: rgb(239, 62, 42);
+  border-style: solid;
+  border-width: 5px;
+}
 
-    .contactform {
-      border-radius: 5px;
-      background-color: #f2f2f2;
-      padding: 20px;
-    }
-    /*join page styles end*/
+/* thoughts box*/
+#thoughtsbox{
+  background-color: #ef3e2a;
+  border-style: solid;
+  border-width: 5px;
+}
+#thoughtsbox h2{
+  text-align: center;
+  color: white;
+}
 
+#dmupride h3{
+  text-align: center;
+  text-transform: capitalize ;
+  border-style: solid;
+  border-color: red green blue yellow;
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+#dmupridepic{
+  width: 100%;
+  border-style: dashed;
+  border-width: 5px;
+  border-color:blue green red hotpink ;
+}
+  
+#toty h3{
+  text-align: center;
+  color: gold;
+  text-transform: uppercase ;
+  border-style: solid;
+  border-width: 2px 10px 4px 20px;}
+#toty img{
+  width: 100%;
+}
+#finalrow{
+background-color: #eee}
+#finalrow h3{
+  text-align: center
+}
+.mapjpg{
+  float: right;
+  width: 100%;
+}
+
+/*end home page styling*/
+
+/*committee page syling*/
+.committee{
+  width: 100%;
+}
+
+/*teams page syling*/
+.teampics{
+  width: 100%;
+}
+
+/*social page syling*/
+#socialsecs{
+  width: 100%;
+  border-style: solid;
+  border-color: #ef3e2a;
+  border-width: 5px;
+}
