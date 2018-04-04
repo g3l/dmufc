@@ -134,3 +134,14 @@ background-color: #eee}
   border-color: #ef3e2a;
   border-width: 5px;
 }
+#htour{
+  text-align: center;
+  text-transform: uppercase;
+  background: #ef3e2a;
+  color: gold;
+}
+
+.ltables{
+  width: 100%;
+  height:  265px;
+}
