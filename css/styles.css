@@ -153,9 +153,9 @@ background-color: #eee}
 #finalrow h3{
   text-align: center
 }
-.mapjpg{
-  float: right;
+#map{
   width: 100%;
+  height: 270px;
 }
 
 .media-object.img-outline{

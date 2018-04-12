@@ -250,10 +250,22 @@
                 <a class="dmuemail " href="mailto:dmu.mensfootballclub@hotmail.com " data-type="mail ">dmu.mensfootballclub@hotmail.com</a>
             </div>
             <div class="col-sm-4 ">
-                <a href="https://www.google.co.uk/maps/place/Dmu%2F+Beaumont+park+Football+club/@52.6701461,-1.1703831,16.4z/data=!4m8!1m2!2m1!1sbeaumont+town+fc!3m4!1s0x4877606958d70b93:0x9efeed8056a05816!8m2!3d52.6701953!4d-1.1678565
-                " target="_blank ">
-                    <img src="css/images/map.JPG " alt="map link " class="mapjpg ">
-                </a>
+                <div id="map"></div>
+                <script>
+                    function initMap() {
+                        var uluru = { lat: 52.670329, lng: -1.167826 };
+                        var map = new google.maps.Map(document.getElementById('map'), {
+                            zoom: 17,
+                            center: uluru
+                        });
+                        var marker = new google.maps.Marker({
+                            position: uluru,
+                            map: map
+                        });
+                    }
+                </script>
+                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDy-couPLfrQpOqUt88OJNn1iZEblhgYpc&callback=initMap">
+                </script>
             </div>
         </div>
         <!--end table2-->
